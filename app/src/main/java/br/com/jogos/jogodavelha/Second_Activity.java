@@ -24,8 +24,9 @@ public class Second_Activity extends AppCompatActivity {
 
     private Button buttonVoltar;
 
-    private int [][]matriz = new int[][] {{0, 0, 0}, {0, 0, 0}, {0, 0, 0}};
+    private char [][]matriz =  {{0, 0, 0}, {0, 0, 0}, {0, 0, 0}};
     private int jogada = 0;
+    private char m1 = matriz[0][0];
 
     @SuppressLint("MissingInflatedId")
     @Override

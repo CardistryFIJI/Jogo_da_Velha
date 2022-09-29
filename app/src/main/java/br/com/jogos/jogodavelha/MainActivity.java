@@ -50,7 +50,7 @@ public class MainActivity extends AppCompatActivity {
 
         //if (name1.isEmpty()) {
             //textJogador1.setError("Favor inserir o nome");
-           // return;
+            //return;
         //}
         if (name2.isEmpty()) {
             textJogador2.setError("Favor inserir o nome");
